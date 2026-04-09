@@ -1,0 +1,6 @@
+{
+  "name": "bsd-search",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Intelligent search and decision tree for bridge bidding systems"
+}

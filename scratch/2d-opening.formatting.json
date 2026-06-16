@@ -1,0 +1,453 @@
+{
+  "page-Strong-2d-opening": {
+    "elements": [
+      {
+        "rowHtml": [
+          {
+            "html": "xfer to <span style=\"color:#000000\">♠</span>, nf; over opener's 2<span style=\"color:#000000\">♠</span>, responder bids as",
+            "columns": [
+              {
+                "html": "xfer to <span style=\"color:#000000\">♠</span>, nf; over opener's 2<span style=\"color:#000000\">♠</span>, responder bids as"
+              }
+            ]
+          },
+          {
+            "html": "6322 hand with 6 <span style=\"color:#000000\">♠</span>, inv, 3<span style=\"color:#000000\">♠</span> rejects gt, 3n is COG",
+            "columns": [
+              {
+                "html": "6322 hand with 6 <span style=\"color:#000000\">♠</span>, inv, 3<span style=\"color:#000000\">♠</span> rejects gt, 3n is COG"
+              }
+            ]
+          },
+          {
+            "html": "5 <span style=\"color:#000000\">♠</span>, 4+m",
+            "columns": [
+              {
+                "html": "5 <span style=\"color:#000000\">♠</span>, 4+m"
+              }
+            ]
+          },
+          null,
+          null,
+          {
+            "html": "6<span style=\"color:#000000\">♠</span>, 4<span style=\"color:#cc0000\">♥</span>, forcing",
+            "columns": [
+              {
+                "html": "6<span style=\"color:#000000\">♠</span>, 4<span style=\"color:#cc0000\">♥</span>, forcing"
+              }
+            ]
+          },
+          {
+            "html": "<p>6+ <span style=\"color:#000000\">♠</span> st; short x/bal st, need source of tricks</p>",
+            "columns": [
+              {
+                "html": "<p>6+ <span style=\"color:#000000\">♠</span> st; short x/bal st, need source of tricks</p>"
+              }
+            ]
+          },
+          null,
+          null,
+          {
+            "html": "<p>xfer to <span style=\"color:#cc0000\">♥</span>; since gf is established <a href=\"bridge://page-xfer-to-3h-when-gf/popup\" data-page-id=\"page-xfer-to-3h-when-gf\" data-link-mode=\"popup\" style=\"color: rgb(37, 99, 235); text-decoration: underline; cursor: pointer;\"><u>xfer to 3<span style=\"color:#cc0000\">♥</span>, when gf</u></a> applies</p>",
+            "columns": [
+              {
+                "html": "<p>xfer to <span style=\"color:#cc0000\">♥</span>; since gf is established <a href=\"bridge://page-xfer-to-3h-when-gf/popup\" data-page-id=\"page-xfer-to-3h-when-gf\" data-link-mode=\"popup\" style=\"color: rgb(37, 99, 235); text-decoration: underline; cursor: pointer;\"><u>xfer to 3<span style=\"color:#cc0000\">♥</span>, when gf</u></a> applies</p>"
+              }
+            ]
+          },
+          {
+            "html": "5<span style=\"color:#000000\">♣</span>4<span style=\"color:#cc0000\">♦</span>/5<span style=\"color:#cc0000\">♦</span>4<span style=\"color:#000000\">♣</span>, 22",
+            "columns": [
+              {
+                "html": "5<span style=\"color:#000000\">♣</span>4<span style=\"color:#cc0000\">♦</span>/5<span style=\"color:#cc0000\">♦</span>4<span style=\"color:#000000\">♣</span>, 22"
+              }
+            ]
+          },
+          null,
+          {
+            "html": "6<span style=\"color:#cc0000\">♦</span>4<span style=\"color:#000000\">♣</span>/6<span style=\"color:#000000\">♣</span>4<span style=\"color:#cc0000\">♦</span>, slam try",
+            "columns": [
+              {
+                "html": "6<span style=\"color:#cc0000\">♦</span>4<span style=\"color:#000000\">♣</span>/6<span style=\"color:#000000\">♣</span>4<span style=\"color:#cc0000\">♦</span>, slam try"
+              }
+            ]
+          },
+          {
+            "html": "<p>55 minors, game+/ 55 minors slam force, 4n over the latter is dkc</p>",
+            "columns": [
+              {
+                "html": "<p>55 minors, game+/ 55 minors slam force, 4n over the latter is dkc</p>"
+              }
+            ]
+          },
+          {
+            "html": "puppet to 3<span style=\"color:#000000\">♣</span>, nf, on which 3x = short; 3n = 6<span style=\"color:#000000\">♣</span>, 4<span style=\"color:#cc0000\">♦</span> (nt doubt; conc val in m)",
+            "columns": [
+              {
+                "html": "puppet to 3<span style=\"color:#000000\">♣</span>, nf, on which 3x = short; 3n = 6<span style=\"color:#000000\">♣</span>, 4<span style=\"color:#cc0000\">♦</span> (nt doubt; conc val in m)"
+              }
+            ]
+          },
+          {
+            "html": "5+<span style=\"color:#cc0000\">♦</span>, gf. ...3<span style=\"color:#000000\">♣</span>3<span style=\"color:#cc0000\">♦</span> = 3 card <span style=\"color:#cc0000\">♦</span>. Over 3<span style=\"color:#cc0000\">♦</span>, 3x = short; 3n = short <span style=\"color:#000000\">♣</span>. ...3<span style=\"color:#000000\">♣</span>3n = no fit",
+            "columns": [
+              {
+                "html": "5+<span style=\"color:#cc0000\">♦</span>, gf. ...3<span style=\"color:#000000\">♣</span>3<span style=\"color:#cc0000\">♦</span> = 3 card <span style=\"color:#cc0000\">♦</span>. Over 3<span style=\"color:#cc0000\">♦</span>, 3x = short; 3n = short <span style=\"color:#000000\">♣</span>. ...3<span style=\"color:#000000\">♣</span>3n = no fit"
+              }
+            ]
+          },
+          {
+            "html": "xfer to <span style=\"color:#cc0000\">♥</span>, nf, over opener's 3<span style=\"color:#cc0000\">♥</span> responder bids as",
+            "columns": [
+              {
+                "html": "xfer to <span style=\"color:#cc0000\">♥</span>, nf, over opener's 3<span style=\"color:#cc0000\">♥</span> responder bids as"
+              }
+            ]
+          },
+          null,
+          {
+            "html": "6<span style=\"color:#cc0000\">♥</span>4<span style=\"color:#000000\">♠</span>, forcing",
+            "columns": [
+              {
+                "html": "6<span style=\"color:#cc0000\">♥</span>4<span style=\"color:#000000\">♠</span>, forcing"
+              }
+            ]
+          },
+          {
+            "html": "<p>6<span style=\"color:#cc0000\">♥</span>, mild slam try, need source of tricks</p>",
+            "columns": [
+              {
+                "html": "<p>6<span style=\"color:#cc0000\">♥</span>, mild slam try, need source of tricks</p>"
+              }
+            ]
+          },
+          null,
+          null,
+          {
+            "html": "6+<span style=\"color:#cc0000\">♥</span>/<span style=\"color:#000000\">♠</span>, game or sure slam",
+            "columns": [
+              {
+                "html": "6+<span style=\"color:#cc0000\">♥</span>/<span style=\"color:#000000\">♠</span>, game or sure slam"
+              }
+            ]
+          },
+          {
+            "html": "<p><span style=\"color:#000000\">♣</span>/<span style=\"color:#cc0000\">♦</span> quanti</p>",
+            "columns": [
+              {
+                "html": "<p><span style=\"color:#000000\">♣</span>/<span style=\"color:#cc0000\">♦</span> quanti</p>"
+              }
+            ]
+          }
+        ],
+        "levelWidths": {
+          "0": 80,
+          "2": 45
+        }
+      },
+      {
+        "width": 442,
+        "rowHtml": [
+          {
+            "html": "<p>Interference over our strong 2<span style=\"color:#cc0000\">♦</span> opening</p>",
+            "columns": [
+              {
+                "html": "<p>Interference over our strong 2<span style=\"color:#cc0000\">♦</span> opening</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>showing <span style=\"color:#cc0000\">♦</span></p>",
+            "bidHtml": "<p>2<span style=\"color:#cc0000\">♦</span>(x)</p>",
+            "columns": [
+              {
+                "html": "<p>showing <span style=\"color:#cc0000\">♦</span></p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>weak, 4+<span style=\"color:#cc0000\">♦</span> ( no interest in game even opp 18/19)</p>",
+            "columns": [
+              {
+                "html": "<p>weak, 4+<span style=\"color:#cc0000\">♦</span> ( no interest in game even opp 18/19)</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>Xfer to <span style=\"color:#cc0000\">♥</span>/<span style=\"color:#000000\">♠</span> for drop/gf; if gf promises stop</p>",
+            "columns": [
+              {
+                "html": "<p>Xfer to <span style=\"color:#cc0000\">♥</span>/<span style=\"color:#000000\">♠</span> for drop/gf; if gf promises stop</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>xfer to 2n; (may not have stop if seeking M fit); 2<span style=\"color:#cc0000\">♦</span>(x)2<span style=\"color:#000000\">♠</span>2n3<span style=\"color:#000000\">♣</span>= stopper stay</p>",
+            "columns": [
+              {
+                "html": "<p>xfer to 2n; (may not have stop if seeking M fit); 2<span style=\"color:#cc0000\">♦</span>(x)2<span style=\"color:#000000\">♠</span>2n3<span style=\"color:#000000\">♣</span>= stopper stay</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p><span style=\"color:#000000\">♣</span>, systems on</p>",
+            "columns": [
+              {
+                "html": "<p><span style=\"color:#000000\">♣</span>, systems on</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>stay no stop; one/both M; 3<span style=\"color:#cc0000\">♦</span> asks: 3M = OM, 4<span style=\"color:#cc0000\">♦</span> = both M</p>",
+            "columns": [
+              {
+                "html": "<p>stay no stop; one/both M; 3<span style=\"color:#cc0000\">♦</span> asks: 3M = OM, 4<span style=\"color:#cc0000\">♦</span> = both M</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>No logical bid available, but gf</p>",
+            "columns": [
+              {
+                "html": "<p>No logical bid available, but gf</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>5OM, no stop, gf</p>",
+            "columns": [
+              {
+                "html": "<p>5OM, no stop, gf</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>Systems on</p>",
+            "columns": [
+              {
+                "html": "<p>Systems on</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>x = t/o, wk or gf; rest <a href=\"bridge://page-Rubensohl/popup\" data-page-id=\"page-Rubensohl\" data-link-mode=\"popup\" style=\"color: rgb(37, 99, 235); text-decoration: underline; cursor: pointer;\"><u>Rubensohl</u></a>; </p>",
+            "bidHtml": "<p>2<span style=\"color:#cc0000\">♦</span>(2M)</p>",
+            "columns": [
+              {
+                "html": "<p>x = t/o, wk or gf; rest <a href=\"bridge://page-Rubensohl/popup\" data-page-id=\"page-Rubensohl\" data-link-mode=\"popup\" style=\"color: rgb(37, 99, 235); text-decoration: underline; cursor: pointer;\"><u>Rubensohl</u></a>; </p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>x =val, rest nat</p>",
+            "bidHtml": "<p>2<span style=\"color:#cc0000\">♦</span>(3x)</p>",
+            "columns": [
+              {
+                "html": "<p>x =val, rest nat</p>"
+              }
+            ]
+          }
+        ],
+        "rowMerges": [
+          [
+            0,
+            0
+          ]
+        ],
+        "levelWidths": {
+          "0": 80,
+          "1": 63
+        }
+      }
+    ],
+    "titleHtml": "<p><strong>Strong 2</strong><span style=\"color: rgb(204, 0, 0);\"><strong><span style=\"color:#cc0000\">♦</span></strong></span><strong> opening</strong></p>"
+  },
+  "page-Rubensohl": {
+    "elements": [
+      {
+        "width": 526,
+        "borderWidth": 2
+      },
+      {
+        "width": 600,
+        "rowHtml": [
+          {
+            "html": "<p><span data-discussion-id=\"01ef8a8e-5927-4a95-8f60-f1ebe9c2ae9b\" class=\"disc-hl\">Responses</span> (pivot suit = M)</p>",
+            "columns": [
+              {
+                "html": "<p><span data-discussion-id=\"01ef8a8e-5927-4a95-8f60-f1ebe9c2ae9b\" class=\"disc-hl\">Responses</span> (pivot suit = M)</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>inv values+, 1n(2M)x = 4 cards in OM, inv</p>",
+            "bidHtml": "<p>x</p>",
+            "columns": [
+              {
+                "html": "<p>inv values+, 1n(2M)x = 4 cards in OM, inv</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>nat, nf</p>",
+            "bidHtml": "<p>2<span style=\"color:#000000\">♠</span></p>",
+            "columns": [
+              {
+                "html": "<p>nat, nf</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>puppet to 3<span style=\"color:#000000\">♣</span>; opener can bypass - any bid other than cue (3y) = nf. Over 3<span style=\"color:#000000\">♣</span></p>",
+            "bidHtml": "<p>2n</p>",
+            "columns": [
+              {
+                "html": "<p>puppet to 3<span style=\"color:#000000\">♣</span>; opener can bypass - any bid other than cue (3y) = nf. Over 3<span style=\"color:#000000\">♣</span></p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>drop</p>",
+            "bidHtml": "<p>3x (x&lt;M)</p>",
+            "columns": [
+              {
+                "html": "<p>drop</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>stayman with stop in x</p>",
+            "bidHtml": "<p>3M</p>",
+            "columns": [
+              {
+                "html": "<p>stayman with stop in x</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>5+<span style=\"color:#000000\">♠</span>, gf ( 2<span style=\"color:#000000\">♠</span> available for drop)</p>",
+            "bidHtml": "<p>3<span style=\"color:#000000\">♠</span> (their suit = <span style=\"color:#cc0000\">♥</span>)</p>",
+            "columns": [
+              {
+                "html": "<p>5+<span style=\"color:#000000\">♠</span>, gf ( 2<span style=\"color:#000000\">♠</span> available for drop)</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>to play, have stop</p>",
+            "bidHtml": "<p>3n</p>",
+            "columns": [
+              {
+                "html": "<p>to play, have stop</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>xfer to <span style=\"color:#cc0000\">♦</span>, inv; 5+<span style=\"color:#cc0000\">♦</span> (gf if over 1n opening by partner)</p>",
+            "bidHtml": "<p>3<span style=\"color:#000000\">♣</span></p>",
+            "columns": [
+              {
+                "html": "<p>xfer to <span style=\"color:#cc0000\">♦</span>, inv; 5+<span style=\"color:#cc0000\">♦</span> (gf if over 1n opening by partner)</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>xfer to OM, inv+</p>",
+            "bidHtml": "<p>3<span style=\"color:#cc0000\">♦</span></p>",
+            "columns": [
+              {
+                "html": "<p>xfer to OM, inv+</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>stayman, gf, no stop</p>",
+            "bidHtml": "<p>3M</p>",
+            "columns": [
+              {
+                "html": "<p>stayman, gf, no stop</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p><span style=\"color:#000000\">♣</span>, inv+ (mostly gf)</p>",
+            "bidHtml": "<p>3OM</p>",
+            "columns": [
+              {
+                "html": "<p><span style=\"color:#000000\">♣</span>, inv+ (mostly gf)</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>no stop, but have values for game, no 4 card M/ OM also</p>",
+            "bidHtml": "<p>3n</p>",
+            "columns": [
+              {
+                "html": "<p>no stop, but have values for game, no 4 card M/ OM also</p>"
+              }
+            ]
+          }
+        ],
+        "rowMerges": [
+          [
+            0,
+            0
+          ]
+        ],
+        "levelWidths": {
+          "0": 80,
+          "1": 142
+        },
+        "columnWidths": [
+          450
+        ]
+      }
+    ],
+    "titleHtml": "<p><strong>Rubensohl</strong></p>"
+  },
+  "page-xfer-to-3h-when-gf": {
+    "elements": [
+      {
+        "width": 600,
+        "rowHtml": [
+          {
+            "html": "<p>3<span style=\"color:#cc0000\">♦</span> = xfer to 3<span style=\"color:#cc0000\">♥</span>. acceptance is not forced since gf is established. Over 3<span style=\"color:#cc0000\">♦</span></p>",
+            "columns": [
+              {
+                "html": "<p>3<span style=\"color:#cc0000\">♦</span> = xfer to 3<span style=\"color:#cc0000\">♥</span>. acceptance is not forced since gf is established. Over 3<span style=\"color:#cc0000\">♦</span></p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>2 card <span style=\"color:#cc0000\">♥</span>, over which 3<span style=\"color:#000000\">♠</span> = 55M slammish; 3n = 5332; 4m = nat; 4<span style=\"color:#cc0000\">♥</span> = mild slam try, need source of tricks</p>",
+            "bidHtml": "<p>3<span style=\"color:#cc0000\">♥</span></p>",
+            "columns": [
+              {
+                "html": "<p>2 card <span style=\"color:#cc0000\">♥</span>, over which 3<span style=\"color:#000000\">♠</span> = 55M slammish; 3n = 5332; 4m = nat; 4<span style=\"color:#cc0000\">♥</span> = mild slam try, need source of tricks</p>"
+              }
+            ]
+          },
+          {
+            "html": "<p>3 card <span style=\"color:#cc0000\">♥</span>; over this 4m = xfer to <span style=\"color:#cc0000\">♥</span>, with bs cue; 4<span style=\"color:#000000\">♠</span> = nsst</p>",
+            "bidHtml": "<p>3n</p>",
+            "columns": [
+              {
+                "html": "<p>3 card <span style=\"color:#cc0000\">♥</span>; over this 4m = xfer to <span style=\"color:#cc0000\">♥</span>, with bs cue; 4<span style=\"color:#000000\">♠</span> = nsst</p>"
+              }
+            ]
+          }
+        ],
+        "rowMerges": [
+          [
+            0,
+            0
+          ]
+        ],
+        "columnWidths": [
+          450
+        ]
+      }
+    ],
+    "titleHtml": "<p><strong>xfer to 3</strong><span style=\"color: rgb(204, 0, 0);\"><strong><span style=\"color:#cc0000\">♥</span></strong></span><strong>, when gf</strong></p>"
+  }
+}

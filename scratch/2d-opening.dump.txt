@@ -1,0 +1,440 @@
+System: Strong 2d Slice (test)
+======================================================================
+
+Legend:
+  path:  nested auction from page context down to this row
+  bid:   this row's bid literal
+  frag:  one fragment of the meaning text with tentative tags
+  tags:  [art:*] artificial convention | [forcing:*] forcing level | [shape:*] suit-length | [shape-pattern:*] HCP distribution | [hcp:*] strength | [shows|denies|asks|promises] | [signoff] | [ref:*] page cross-ref | [has-continuations] text implies more bids follow
+
+
+======================================================================
+PAGE: Strong 2♦ opening
+======================================================================
+
+--- Table: (unnamed) ---
+
+path:    2♦ > 2♥
+bid:     2♥
+meaning: xfer to ♠, nf; over opener's 2♠, responder bids as
+fragments:
+  - [forcing:nf, art:transfer]
+      "xfer to ♠, nf"
+  - [shape:2♠, has-continuations]
+      "over opener's 2♠, responder bids as"
+
+  path:    2♦ > 2♥ > 2n
+  bid:     2n
+  meaning: 6322 hand with 6 ♠, inv, 3♠ rejects gt, 3n is COG
+  fragments:
+    - [inv, art:cog, shape:6♠,3♠, shape-pattern:6322]
+        "6322 hand with 6 ♠, inv, 3♠ rejects gt, 3n is COG"
+
+  path:    2♦ > 2♥ > 3m
+  bid:     3m
+  meaning: 5 ♠, 4+m
+  fragments:
+    - [shape:5♠,4m]
+        "5 ♠, 4+m"
+
+  path:    2♦ > 2♥ > 3♥
+  bid:     3♥
+  meaning: 55M, inv
+  fragments:
+    - [inv, shape:5M, shape-pattern:55M]
+        "55M, inv"
+
+  path:    2♦ > 2♥ > 3♠
+  bid:     3♠
+  meaning: 5332 hand
+  fragments:
+    - [shape-pattern:5332]
+        "5332 hand"
+
+  path:    2♦ > 2♥ > 3n
+  bid:     3n
+  meaning: 6♠, 4♥, forcing
+  fragments:
+    - [forcing:f, shape:6♠,4♥]
+        "6♠, 4♥, forcing"
+
+  path:    2♦ > 2♥ > 4x/4♠
+  bid:     4x/4♠
+  meaning: 6+ ♠ st; short x/bal st, need source of tricks
+  fragments:
+    - [shape:6♠]
+        "6+ ♠ st"
+    - [short]
+        "short x/bal st, need source of tricks"
+
+path:    2♦ > 2♠
+bid:     2♠
+meaning: puppet to 2n, over opener's 2n, responder bids as
+fragments:
+  - [art:puppet, has-continuations]
+      "puppet to 2n, over opener's 2n, responder bids as"
+
+  path:    2♦ > 2♠ > 3♣
+  bid:     3♣
+  meaning: stayman, same as over 2n opening
+  fragments:
+    - [art:stayman]
+        "stayman, same as over 2n opening"
+
+  path:    2♦ > 2♠ > 3♦
+  bid:     3♦
+  meaning: xfer to ♥; since gf is established [xfer to 3♥, when gf|popup|page-xfer-to-3♥-when-gf] applies
+  fragments:
+    - [art:transfer]
+        "xfer to ♥"
+    - [forcing:gf, art:transfer, shape:3♥,3♥, ref:page-xfer-to-3♥-when-gf]
+        "since gf is established [xfer to 3♥, when gf|popup|page-xfer-to-3♥-when-gf] applies"
+
+  path:    2♦ > 2♠ > 3♥/♠
+  bid:     3♥/♠
+  meaning: 5♣4♦/5♦4♣, 22
+  fragments:
+    - [shape:5♣,4♦,5♦,4♣]
+        "5♣4♦/5♦4♣, 22"
+
+  path:    2♦ > 2♠ > 3n
+  bid:     3n
+  meaning: to play
+  fragments:
+    - [signoff]
+        "to play"
+
+  path:    2♦ > 2♠ > 4♣/♦
+  bid:     4♣/♦
+  meaning: 6♦4♣/6♣4♦, slam try
+  fragments:
+    - [shape:6♦,4♣,6♣,4♦, slam]
+        "6♦4♣/6♣4♦, slam try"
+
+  path:    2♦ > 2♠ > 4M
+  bid:     4M
+  meaning: 55 minors, game+/ 55 minors slam force, 4n over the latter is dkc
+  fragments:
+    - [art:keycard, shape:5m,5m, slam]
+        "55 minors, game+/ 55 minors slam force, 4n over the latter is dkc"
+
+path:    2♦ > 2n
+bid:     2n
+meaning: puppet to 3♣, nf, on which 3x = short; 3n = 6♣, 4♦ (nt doubt; conc val in m)
+fragments:
+  - [forcing:nf, art:puppet, shape:3♣, short]
+      "puppet to 3♣, nf, on which 3x = short"
+  - [shape:6♣,4♦]
+      "3n = 6♣, 4♦ (nt doubt"
+  - [no-tags]
+      "conc val in m)"
+
+path:    2♦ > 3♣
+bid:     3♣
+meaning: 5+♦, gf. ...3♣3♦ = 3 card ♦. Over 3♦, 3x = short; 3n = short ♣. ...3♣3n = no fit
+fragments:
+  - [forcing:gf, shape:5♦,3♣,3♦,3♦, short]
+      "5+♦, gf. ...3♣3♦ = 3 card ♦. Over 3♦, 3x = short"
+  - [shape:3♣, short]
+      "3n = short ♣. ...3♣3n = no fit"
+
+path:    2♦ > 3♦
+bid:     3♦
+meaning: xfer to ♥, nf, over opener's 3♥ responder bids as
+fragments:
+  - [forcing:nf, art:transfer, shape:3♥, has-continuations]
+      "xfer to ♥, nf, over opener's 3♥ responder bids as"
+
+  path:    2♦ > 3♦ > 3♠/4m
+  bid:     3♠/4m
+  meaning: Sing s/m
+  fragments:
+    - [stiff-void-sing]
+        "Sing s/m"
+
+  path:    2♦ > 3♦ > 3n
+  bid:     3n
+  meaning: 6♥4♠, forcing
+  fragments:
+    - [forcing:f, shape:6♥,4♠]
+        "6♥4♠, forcing"
+
+  path:    2♦ > 3♦ > 4♥
+  bid:     4♥
+  meaning: 6♥, mild slam try, need source of tricks
+  fragments:
+    - [shape:6♥, slam]
+        "6♥, mild slam try, need source of tricks"
+
+path:    2♦ > 3M
+bid:     3M
+meaning: short M, 3 card OM; 4m over opener's 3n = 4m, 5 om
+fragments:
+  - [short]
+      "short M, 3 card OM"
+  - [shape:4m,4m,5o]
+      "4m over opener's 3n = 4m, 5 om"
+
+path:    2♦ > 3n
+bid:     3n
+meaning: both Majors; game or slam force
+fragments:
+  - [no-tags]
+      "both Majors"
+  - [slam]
+      "game or slam force"
+
+path:    2♦ > 4♣/♦
+bid:     4♣/♦
+meaning: 6+♥/♠, game or sure slam
+fragments:
+  - [shape:6♥, slam]
+      "6+♥/♠, game or sure slam"
+
+path:    2♦ > 4♥/♠
+bid:     4♥/♠
+meaning: ♣/♦ quanti
+fragments:
+  - [art:quanti]
+      "♣/♦ quanti"
+
+--- Table: (unnamed) ---
+
+path:    2♦ > 
+bid:     
+meaning: Interference over our strong 2♦ opening
+fragments:
+  - [shape:2♦]
+      "Interference over our strong 2♦ opening"
+
+path:    2♦ > 2♦(x)
+bid:     2♦(x)
+meaning: showing ♦
+fragments:
+  - [shows]
+      "showing ♦"
+
+  path:    2♦ > 2♦(x) > pass
+  bid:     pass
+  meaning: weak, 4+♦ ( no interest in game even opp 18/19)
+  fragments:
+    - [shape:4♦]
+        "weak, 4+♦ ( no interest in game even opp 18/19)"
+
+  path:    2♦ > 2♦(x) > Xx/2♥
+  bid:     Xx/2♥
+  meaning: Xfer to ♥/♠ for drop/gf; if gf promises stop
+  fragments:
+    - [forcing:gf, art:transfer, signoff]
+        "Xfer to ♥/♠ for drop/gf"
+    - [forcing:gf, promises]
+        "if gf promises stop"
+
+  path:    2♦ > 2♦(x) > 2♠
+  bid:     2♠
+  meaning: xfer to 2n; (may not have stop if seeking M fit); 2♦(x)2♠2n3♣= stopper stay
+  fragments:
+    - [art:transfer]
+        "xfer to 2n"
+    - [no-tags]
+        "(may not have stop if seeking M fit)"
+    - [shape:2♦,2♠,3♣]
+        "2♦(x)2♠2n3♣= stopper stay"
+
+  path:    2♦ > 2♦(x) > 2n
+  bid:     2n
+  meaning: ♣, systems on
+  fragments:
+    - [systems-on]
+        "♣, systems on"
+
+  path:    2♦ > 2♦(x) > 3♣
+  bid:     3♣
+  meaning: stay no stop; one/both M; 3♦ asks: 3M = OM, 4♦ = both M
+  fragments:
+    - [no-tags]
+        "stay no stop"
+    - [no-tags]
+        "one/both M"
+    - [asks, shape:3♦,3M,4♦]
+        "3♦ asks: 3M = OM, 4♦ = both M"
+
+  path:    2♦ > 2♦(x) > 3♦
+  bid:     3♦
+  meaning: No logical bid available, but gf
+  fragments:
+    - [forcing:gf]
+        "No logical bid available, but gf"
+
+  path:    2♦ > 2♦(x) > 3M
+  bid:     3M
+  meaning: 5OM, no stop, gf
+  fragments:
+    - [forcing:gf, shape:5O]
+        "5OM, no stop, gf"
+
+  path:    2♦ > 2♦(x) > 4m
+  bid:     4m
+  meaning: Systems on
+  fragments:
+    - [systems-on]
+        "Systems on"
+
+path:    2♦ > 2♦(2M)
+bid:     2♦(2M)
+meaning: x = t/o, wk or gf; rest [Rubensohl|popup|page-Rubensohl];
+fragments:
+  - [forcing:gf]
+      "x = t/o, wk or gf"
+  - [art:rubensohl, ref:page-Rubensohl]
+      "rest [Rubensohl|popup|page-Rubensohl]"
+
+path:    2♦ > 2♦(3x)
+bid:     2♦(3x)
+meaning: x =val, rest nat
+fragments:
+  - [nat]
+      "x =val, rest nat"
+
+======================================================================
+PAGE: Rubensohl
+======================================================================
+
+[note]
+  Applicable in the following situations
+  - they have bid a single suit M: 1n(2M)?, 2♦(2M)?, (1M)1n(2M), (2M)x(p), (2M)p(p)x(p), (1M)x(2M), (1M)p(2M)x(p).
+  - over their multi 2♦, when partner takes out a M suit: (2♦)x, (2♦)2♥. The taken out suit is the pivot suit for responses
+
+--- Table: (unnamed) ---
+
+path:    
+bid:     
+meaning: Responses (pivot suit = M)
+fragments:
+  - [no-tags]
+      "Responses (pivot suit = M)"
+
+path:    x
+bid:     x
+meaning: inv values+, 1n(2M)x = 4 cards in OM, inv
+fragments:
+  - [inv, shape:2M]
+      "inv values+, 1n(2M)x = 4 cards in OM, inv"
+
+path:    2♠
+bid:     2♠
+meaning: nat, nf
+fragments:
+  - [forcing:nf, nat]
+      "nat, nf"
+
+path:    2n
+bid:     2n
+meaning: puppet to 3♣; opener can bypass - any bid other than cue (3y) = nf. Over 3♣
+fragments:
+  - [art:puppet, shape:3♣]
+      "puppet to 3♣"
+  - [forcing:nf, art:cue, shape:3♣]
+      "opener can bypass - any bid other than cue (3y) = nf. Over 3♣"
+
+  path:    2n > 3x (x<M)
+  bid:     3x (x<M)
+  meaning: drop
+  fragments:
+    - [signoff]
+        "drop"
+
+  path:    2n > 3M
+  bid:     3M
+  meaning: stayman with stop in x
+  fragments:
+    - [art:stayman]
+        "stayman with stop in x"
+
+  path:    2n > 3♠ (their suit = ♥)
+  bid:     3♠ (their suit = ♥)
+  meaning: 5+♠, gf ( 2♠ available for drop)
+  fragments:
+    - [forcing:gf, shape:5♠,2♠, signoff]
+        "5+♠, gf ( 2♠ available for drop)"
+
+  path:    2n > 3n
+  bid:     3n
+  meaning: to play, have stop
+  fragments:
+    - [signoff]
+        "to play, have stop"
+
+path:    3♣
+bid:     3♣
+meaning: xfer to ♦, inv; 5+♦ (gf if over 1n opening by partner)
+fragments:
+  - [inv, art:transfer]
+      "xfer to ♦, inv"
+  - [forcing:gf, shape:5♦]
+      "5+♦ (gf if over 1n opening by partner)"
+
+path:    3♦
+bid:     3♦
+meaning: xfer to OM, inv+
+fragments:
+  - [inv, art:transfer]
+      "xfer to OM, inv+"
+
+path:    3M
+bid:     3M
+meaning: stayman, gf, no stop
+fragments:
+  - [forcing:gf, art:stayman]
+      "stayman, gf, no stop"
+
+path:    3OM
+bid:     3OM
+meaning: ♣, inv+ (mostly gf)
+fragments:
+  - [forcing:gf, inv]
+      "♣, inv+ (mostly gf)"
+
+path:    3n
+bid:     3n
+meaning: no stop, but have values for game, no 4 card M/ OM also
+fragments:
+  - [no-tags]
+      "no stop, but have values for game, no 4 card M/ OM also"
+
+======================================================================
+PAGE: xfer to 3♥, when gf
+======================================================================
+
+--- Table: (unnamed) ---
+
+path:    
+bid:     
+meaning: 3♦ = xfer to 3♥. acceptance is not forced since gf is established. Over 3♦
+fragments:
+  - [forcing:gf, art:transfer, shape:3♦,3♥,3♦]
+      "3♦ = xfer to 3♥. acceptance is not forced since gf is established. Over 3♦"
+
+path:    3♥
+bid:     3♥
+meaning: 2 card ♥, over which 3♠ = 55M slammish; 3n = 5332; 4m = nat; 4♥ = mild slam try, need source of tricks
+fragments:
+  - [shape:3♠,5M, shape-pattern:55M]
+      "2 card ♥, over which 3♠ = 55M slammish"
+  - [shape-pattern:5332]
+      "3n = 5332"
+  - [shape:4m, nat]
+      "4m = nat"
+  - [shape:4♥, slam]
+      "4♥ = mild slam try, need source of tricks"
+
+path:    3n
+bid:     3n
+meaning: 3 card ♥; over this 4m = xfer to ♥, with bs cue; 4♠ = nsst
+fragments:
+  - [no-tags]
+      "3 card ♥"
+  - [art:transfer, art:cue, shape:4m]
+      "over this 4m = xfer to ♥, with bs cue"
+  - [art:nsst, shape:4♠]
+      "4♠ = nsst"

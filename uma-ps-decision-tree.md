@@ -719,11 +719,49 @@ Responder places contract
 |   3♠ | 5+♥ and 4♠ |
 | 2NT/3x | 8+, 5+ in bid suit (2NT=♠); broken suit |
 
-### 2♣-2♦-2♥-2♠-2NT-? (22-24 bal)
-Puppet Stayman: 2NT-3♣-?
-| 3♦ | One/both M; over: 3M=4 in OM; 4♣=both M slammish; 4♦=both M game only |
-| 3♥ | No M |
-| 3♠/3NT | 5♠/5♥ |
+### 2♣-2♦-2♥-2♠-2NT-? (22-24 bal, responder's turn)
+
+```
+2♣-2♦-2♥-2♠-2NT-?
+├── 3♣ = Stayman
+│   ├── 3♦ = denies M
+│   │   └── 3M by resp = Smolen
+│   ├── 3♥ = 4/5♥ (denies 4♠; with 44M bids 3♠)
+│   │   └── resp 3♠ = 3♥ any or 4♥ slam try
+│   ├── 3♠ = 4♠, can have 4♥
+│   └── 3NT = 5♠
+│       ├── 4♥ = xfer to ♠ to play/slam try+
+│       └── 4♠ = nsst with ♠
+├── 3♦ = transfer to ♥ (acceptance not forced since gf established)
+│   ├── 3♥ = 2 card ♥
+│   │   ├── 3♠ = 55M slammish
+│   │   ├── 3NT = 5332
+│   │   ├── 4m = nat
+│   │   └── 4♥ = mild slam try
+│   └── 3NT = 3 card ♥
+│       ├── 4m = xfer to ♥ with bs cue
+│       └── 4♠ = nsst
+├── 3♥ = transfer to ♠
+│   └── 3♠ (accepted)
+│       ├── 4m = nat
+│       ├── 4♥ = 55M, slam try, nf
+│       └── 4♠ = slam try, need source of tricks
+├── 3♠ = puppet to 3NT (minor-oriented)
+│   └── 3NT (accepted)
+│       ├── 4m = 6+om, slam try; next step sets om; 4NT/5om = to play
+│       ├── 4♥ = 5♣4♦ (5M=ekc; 4NT/5m=to play)
+│       ├── 4♠ = 5♦4♣ (5M=ekc; 4NT/5m=to play)
+│       ├── 4NT = quanti with 4-4m
+│       ├── 5m = 6m+5om, slam try
+│       └── 5M = 66m, void in bid suit
+├── 3NT = to play
+├── 4♣ = SA Texas transfer to ♥
+├── 4♦ = SA Texas transfer to ♠
+├── 4♥ = 55m, slam invite
+├── 4♠ = 55m, slam force (4NT over = DKC)
+├── 4NT = quanti with one m (4/5)
+└── 5m = to play
+```
 
 ### 2♣-2♦-2♥-2♠-3NT-? (25-26 semi-bal)
 | 4♣ | Ask for 4 card suit up the line; resp raises if fit, else bid cheapest 4 card suit |
